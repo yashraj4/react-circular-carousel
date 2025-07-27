@@ -1,6 +1,6 @@
 # 🌀 Circular Carousel (React)
 
-A visually rich, animated circular carousel built with React. Each card represents a travel destination, rotating around a central axis. The right-most card (at 0° or 3 o'clock position) expands to show detailed content.
+A visually rich, animated circular carousel built entirely with React. Each card represents a travel destination, rotating around a central axis. The right-most card (at 0° or 3 o'clock position) expands to show detailed content.
 
 ---
 
@@ -20,7 +20,7 @@ A visually rich, animated circular carousel built with React. Each card represen
 Clone the repo and run the app locally:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/yashraj4/react-circular-carousel.git
 cd your-repo
 npm install
 npm start
@@ -38,13 +38,14 @@ npm start
 ---
 
 ## ⚠️ Important Instructions
+
 > [!CAUTION]
-> ❗ **Do _not_ click “Clockwise” or “Anticlockwise” multiple times without pressing “Stop” first.**  
+> **Do _not_ click “Clockwise” or “Anticlockwise” multiple times without pressing “Stop” first.**  
 > Each button starts a new auto‑rotation loop, and stacking them can break the snapping or animations.  
 > **Always press “Stop” before triggering another auto‑rotate direction.**
 
-> ❗ **Avoid using mouse scroll while auto‑rotation is running.**  
-> Scrolling during auto‑rotation can interfere with snapping logic and card expansion.
+> [!NOTE]
+>  **Mouse scroll won't work while auto‑rotation is running.**
 
 ---
 
@@ -64,11 +65,11 @@ src/
 ├── components/
 │   ├── Wheel.js         # Main carousel logic
 │   ├── Card.js          # Individual card rendering
-│   └── api.js           # (Optional) API for card data
+│ 
 ├── App.js               # Main entry point
 └── index.js             # Renders App component
 ```
 ---
 
 ## 📸 Screenshots 
-::contentReference[oaicite:0]{index=0}
+![Image](https://github.com/user-attachments/assets/69ee6261-d84c-47c1-bd7f-eb0592ead652)
