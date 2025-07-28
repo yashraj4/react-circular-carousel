@@ -73,3 +73,8 @@ src/
 
 ## 📸 Screenshots 
 ![Image](https://github.com/user-attachments/assets/69ee6261-d84c-47c1-bd7f-eb0592ead652)
+
+---
+
+## Links
+This project is deployed using [Netlify](https://react-circular-carousel.netlify.app/)
